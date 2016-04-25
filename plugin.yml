@@ -1,0 +1,22 @@
+main: me.Zizothehero.PvpArena.ArenaPVP
+name: ArenaPVP
+version: 1.0
+description: Just a simply pvp Plugin
+author: Ay12thehero
+commands:
+    join:
+        description: joins arena
+        usage: /<command> [id]
+        permission: arenapvp.join
+    create:
+        description: creates arena
+        usage: /<command>
+        permission: arenapvp.create
+    remove:
+        description: removes arena
+        usage: /<command> [id]
+        permission: arenapvp.remove
+    leave:
+        description: leaves arena
+        usage: /<command>
+        permission: arenapvp.leave
